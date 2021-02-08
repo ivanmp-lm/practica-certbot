@@ -18,7 +18,7 @@ Tras esto y con el dominio registrado \(services -&gt; register a new domain\) s
 
 En la pestaña "**Manage Freenom DNS**" se añadirán dos registros con la ip pública de la máquina de Amazon para darle al servidor DNS la información necesaria:
 
-![](https://raw.githubusercontent.com/ivanmp-lm/IAW/master/.gitbook/assets/image%20(36).png)
+![](https://i.ibb.co/WngMTfT/image-41.png)
 
 Una vez hecho esto se procederá a configurar la herramienta [Certbot](https://certbot.eff.org/), que sirve para instalar certificados SSL expedidos por la autoridad certificadora [Let's Encrypt](https://letsencrypt.org/).
 
@@ -41,8 +41,8 @@ Donde en el último comando habrá que adaptar los parámetros a lo que se requi
 
 Como última configuración también sería necesario ingresar en phpMyAdmin y cambiar la tabla "**wp\_options**" de la base de datos de Wordpress para adecuar la nueva URL de la página:
 
-![](https://raw.githubusercontent.com/ivanmp-lm/IAW/master/.gitbook/assets/image%20(35).png)
+![](https://i.ibb.co/Ntzv3nX/image-38.png)
 
 Tras esto, se podrá acceder a Wordpress utilizando el certificado SSL que se ha adquirido por medio de Certbot:
 
-![](https://raw.githubusercontent.com/ivanmp-lm/IAW/master/.gitbook/assets/image%20(34).png)
+![](https://i.ibb.co/2jCL5md/image-37.png)
