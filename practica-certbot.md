@@ -14,7 +14,7 @@ Con la máquina lanzada y la página de Wordpress operativa, habrá que registra
 
 Tras esto y con el dominio registrado \(services -&gt; register a new domain\) se accederá a "**Services -&gt; My Domains**" y se pulsará en "**Manage Domain**":
 
-![](https://raw.githubusercontent.com/ivanmp-lm/IAW/master/.gitbook/assets/image%20(37).png)
+![](https://i.ibb.co/KcZPyp4/image-42.png)
 
 En la pestaña "**Manage Freenom DNS**" se añadirán dos registros con la ip pública de la máquina de Amazon para darle al servidor DNS la información necesaria:
 
